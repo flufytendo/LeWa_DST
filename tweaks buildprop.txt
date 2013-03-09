@@ -1,0 +1,278 @@
+﻿lista de tweaks:
+en build prop
+###############
+
+# Mejoras 3G 
+ro.ril.hsxpa=2 ro.ril.gprsclass=10 
+ro.ril.hep=1 ro.ril.enable.dtm=1 
+ro.ril.hsdpa.category=10 
+ro.ril.enable.a53=1 
+ro.ril.enable.3g.prefix=1 
+
+ro.ril.htcmaskw1.bitmask=4294967295 
+ro.ril.htcmaskw1=14449 
+ro.ril.hsupa.category=5 
+
+# NetSpeed Tweaks 
+net.tcp.buffersize.default=4096,87380,256960,4096, 16384,256960 
+net.tcp.buffersize.wifi=4096,87380,256960,4096,163 84,256960 
+net.tcp.buffersize.umts=4096,87380,256960,4096,163 84,256960 
+net.tcp.buffersize.gprs=4096,87380,256960,4096,163 84,256960 
+net.tcp.buffersize.edge=4096,87380,256960,4096,163 84,256960 
+
+
+
+#############
+On dual core devices:
+
+In build.prop (found in/system/) set (It's probably already there under #Common Display Settings, just increase the value): 
+
+Code:
+windowsmgr.max_events_per_sec=240
+############## activado por defecto ####################
+Tweak Render UI por GPU (aceleracion por hardware) 
+Navegando por internet encontre este tweak el cual activa la aceleracion por hardware para la interfaz de usuario, es una modificacion que se hace añadiendo una linea al archivo build.prop, la hice a mi Black Stock v20s y va fluidizimo, ningun lag y eso que llevo el Home de Lg. Mi duda es si esto puede dañar o traer consecuencias a mi telefono. Gracias de antemano y saludos a todos.
+Si quieren probar este mod solo agregen esta linea:
+debug. sf. hw=1
+Guardan los cambios y reinician.
+El archivo es el build.prop y esta en la carpeta system
+
+#####################################################
+#lewa ya lo presenta
+# Video Acceleration Enabled
+video.accelerate.hw=1
+################
+# Touch Responsiveness
+debug.performance.tuning=1
+video.accelerate.hw=1
+puesto ya por lewa
+#############################
+Improving performance of your Android device through optimizing Build.Prop settings
+
+Posted on June 12, 2012 by Niranjan Thilak	 — 1 Comment ↓
+Each android build has a build.prop file . As the name suggests , it has important properties of that android build. These properties are dependent on each device. Each build.prop file consists of numerous properties set by the Android build, each line for each property. Here , in this article i will try to define the purpose of each property and give out the values ( wherever i can ) .
+
+Here are some settings which you can try to optimize .
+
+1.Force launcher into memory
+
+Property
+
+ro.HOME_APP_ADJ = 1
+Function
+
+This will force the Default launcher into memory. But your device should be having enough free memory, otherwise you will meet lags and performance will be reduced severely. Use a light weight launcher for this.
+
+Values
+
+0 : Turns off the feature. Frees up memory.
+
+1: Keeps the default launcher in memory .Will have highest priority and Android auto kills it only when it’s really necessary.
+
+2.Improving Camera Image quality
+
+Property
+
+ro.media.enc.jpeg.quality=100
+Function
+
+This will force the camera application to use 100% quality setting when saving camera images as JPEG
+
+Values
+
+1-100 : with 1  as the worst quality and 100 as the best quality.
+
+3.Increase resolution of panorama image
+
+Property
+
+ro.media.panorama.defres=3264x1840
+ro.media.panorama.frameres=1280x720
+Function
+
+This will force the  panorama mode in the camera app to save the image at a higher resolution. This may not be supported by all phones. And since it is an Android 4.0 feature , you will need that android version as well.
+
+Values
+
+defres: Provide the full panorama image resolution.Consisting of all images.
+
+frameres: Provide the resolution of each frame of panorama.
+
+4.Improve performance in video playback and streaming
+
+Property
+
+ media.stagefright.enable-player=true
+ media.stagefright.enable-meta=true
+ media.stagefright.enable-scan=true
+ media.stagefright.enable-http=true
+ media.stagefright.enable-rtsp=true
+ media.stagefright.enable-record=true
+Function
+
+Android uses the media framework named “Stagefright” from Froyo ( Android 2.2 ) onwards. While Stagefright is more open and simple, it is sometimes buggy compared to the previously used OpenCore framework. However, Google has greatly improved its stability. These values might affect the stability of playback in some devices, if it is ruining your experience , then revert to the original values.
+
+5.Improve touch responsiveness through Hardware Rendering
+
+Property
+
+debug.sf.hw=1
+persist.sys.ui.hw=1
+debug.performance.tuning=1
+video.accelerate.hw=1
+debug.egl.profiler=1
+debug.egl.hw=1
+debug.composition.type=gpu
+Function
+
+This will force the system to use GPU for rendering each 2D frame in applications. Since android uses frame by frame rendering of the screen normally, this will offload the rendering to GPU by a huge amount and will make the user experience smoother.
+
+Values
+
+debug.composition.type values :  GPU / CPU . GPU will make use of the graphic chip on your device for rendering each frame.
+
+6.Disable Error Profiler
+
+Property
+
+profiler.force_disable_err_rpt=1
+profiler.force_disable_ulog=1
+Function
+
+These commands enable or disable the error profiler in the android. For most android users, there is no use in having error profiling . however , some applications might make use of this for generating error reports.
+
+Values
+
+0 :Enable the feature. Better to delete the property if you don’t want to disable it.
+
+1: Disables the feature.
+
+7.Modify WiFi network scanning time.
+
+Property
+
+wifi.supplicant_scan_interval=180
+Function
+
+This command will be already present in all build.prop files. This controls the number of seconds the device waits before scanning for WiFi networks.
+
+Values
+
+Default value is 180  . It is in seconds . You can increase the value if you want to save more battery and doesn’t use WiFi extensively. Or else , you can decrease it , if you are dropping your WiFi signal often.
+
+8.Disable logcat – Android Logger.
+
+Property
+
+logcat.live=disable
+Function
+
+This command controls the Android Logcat file generation. This file is mainly used for debugging. Expensive disk reads/writes can be reduced by disabling Android logcat.
+
+Values
+
+disable / enable
+
+9.Improve Voice Call clarity
+
+Property
+
+ro.ril.enable.amr.wideband=1
+Function
+
+This command controls the  AMR audio codec’s property.AMR codec is used for voice calls.
+
+Values
+
+1 or 0 .
+
+10.Disable Extended JNI Checks
+
+Property
+
+ro.kernel.android.checkjni=0
+ro.kernel.checkjni=0
+Function
+
+“JNI does very little error checking. Errors usually result in a crash. Android also offers a mode called CheckJNI, where the JavaVM and JNIEnv function table pointers are switched to tables of functions that do an extended series of checks before calling the standard implementation.” . That’s the definition from Android developers documentation. While disabling this may cause some data loss when the application crashes, most applications ,which are popular, have been thoroughly checked and hence will be using precious CPU time for extended checks . Save that time by disabling this.
+
+Values
+
+0 / 1 : disable / enable .
+
+11.Disable Android Device Check In.
+
+Property
+
+ro.config.nocheckin=1
+Function
+
+Every Android device checks in at the Google Servers when an internet connection is found, this helps Google in tracking the number of installations and the statistics of different android versions. This can be disabled to save for saving traffic and some CPU time, due to the frequent polling for checking internet connection.
+
+Values
+
+1/0 for  disabling and enabling , respectively.
+
+12.Increase Voice Call Audio Adjustment Steps.
+
+Property
+
+ro.config.vc_call_steps=20
+Function
+
+By Default, android offers seven audio levels for  calls. This can be altered through this command , if you want to fine adjust the volume of your voice calls. This won’t increase the volume if it’s already low. But you can manage it by more precisely.
+
+Values
+
+Number of steps as integers. 7-20 is recommended. 7 is the default.
+
+ ####
+ For ICS/GB:
+
+ro.ril.disable.power.collapse=0
+pm.sleep_mode=1
+debug.performance.tuning=1
+debug.composition.type=hw
+debug.sf.hw=1
+persist.android.strictmode=0
+persist.sys.use_dithering=1
+persist.sys.ui.hw=true
+persist.sys.purgeable_assets=1
+ro.com.google.networklocation=0
+ro.kernel.android.checkjni=0
+ro.config.nocheckin=1
+ro.vold.umsdirtyratio=20
+dalvik.vm.checkjni=false
+dalvik.vm.execution-mode=int:jit
+video.accelerate.hw=1
+windowsmgr.max_events_per_sec=240
+profiler.force_disable_err_rpt=1
+profiler.force_disable_ulog=1
+##################
+Quote:
+Originally Posted by cabaninho  
+Hi
+
+Its possible eliminating internal SD storage in Lewa rom? I try with "http://www.droidwebspace.com/index.php/roms/75-repartition" but phone dont work more. Now im flashing lewa rom again.
+
+Thanks
+
+yess it is, possible 
+
+pretty easy actually download/open root explorer go to system/build.prop open it with file editor (idont know 4sure, but think it automaticly makes an backup) if you dont wanne take the risk, make one yourself
+do a search, to: sdcard there are 2 strings. you only have change both to false, if you want to use the updates from droidwebspace!
+there are easy to find scroll to the bottom at least if you didnt moddified you file allready scroll to the bottum somehere is a space between the context there youll find the first
+#dual Sdcard
+ro.sys.dualSD=true
+#install app use external sdcard
+persist.lewa.env.sdcardswap=true
+
+After that restart your phone, dont forget to save the file first :P
+too see if your phone still functioning
+step 2 is to make a backup in CWM
+and follow Mr gommers1978 his intructions  and restore the backup with the edited build.prop
+if you did every thing right you endup with one sdcard.. when you go to mmt/sdcard and mmt/sdcard2 is empty
+and in system settings youve got the options install apps to system space and internal storage(your sdcard)
+
+droidwebspace.com/index.php/roms/75-repartition
+ 

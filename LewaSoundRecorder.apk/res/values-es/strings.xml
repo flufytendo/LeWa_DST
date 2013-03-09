@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Grabadora</string>
+    <string name="record_your_message">Grabe su mensaje</string>
+    <string name="message_recorded">Mensaje grabado</string>
+    <string name="review_message">Revisión mensaje</string>
+    <string name="recording">Grabación</string>
+    <string name="recording_stopped">La grabación se detuvo</string>
+    <string name="storage_is_full">El Almacenamiento está lleno</string>
+    <string name="max_length_reached">Longitud máxima alcanzada</string>
+    <string name="insert_sd_card">No se ha detectado la tarjeta SD, por favor confirme que  la tarjeta SD esta insertasda, y no mediante la conexión USB de almacenamiento de equipo</string>
+    <string name="min_available">%d mins disponibles</string>
+    <string name="sec_available">%ds disponibles</string>
+    <string name="accept">Hecho</string>
+    <string name="discard">Descartar</string>
+    <string name="button_ok">Aceptar</string>
+    <string name="timer_format_with_hour" formatted="false">%02d:%02d:%02d</string>
+    <string name="timer_format_without_hour" formatted="false">%02d:%02d</string>
+    <string name="audio_db_title_format">aaaa-MM-dd HH:mm:ss</string>
+    <string name="audio_db_artist_name">Sus grabaciones</string>
+    <string name="audio_db_album_name">Grabaciones de audio</string>
+    <string name="audio_db_playlist_name">Mis grabaciones</string>
+    <string name="error_sdcard_access">No es posible acceder a la tarjeta SD</string>
+    <string name="error_app_internal">Error interno de la aplicación</string>
+    <string name="error_mediadb_new_record">No se puede guardar el audio grabado</string>
+    <string name="error_app_recorder_occupied">Grabadora está ocupada por otra aplicación.</string>
+    <string name="unknown_artist_name">Artista desconocido</string>
+    <string name="error_app_failed_title">Error en grabación</string>
+    <string name="tell_save_record_success">Guardado con éxito</string>
+    <string name="save_record">Guardar</string>
+    <string name="spaceIsLow_content">Su tarjeta SD se está quedando sin espacio. Detenga la grabación o elimina elementos de la tarjeta SD.</string>
+    <string name="cancel">Cancelar</string>
+    <string name="rename_record_file">Cambiar el nombre de archivo de la grabación</string>
+    <string name="file_already_exists">El archivo ya existe</string>
+    <string name="select_recording_format">Seleccione el formato de grabación</string>
+    <string name="recording_format_high">Alto</string>
+    <string name="recording_format_mid">Medio</string>
+    <string name="recording_format_low">Bajo</string>
+    <string name="three_mins_avail_total">3 minutos totales disponibles</string>
+    <string name="recorder_can_not_be_used">Grabadora de sonidos no se pueden utilizar en estos momentos.</string>
+    <string name="alert_delete_multiple">Estos elementos se eliminarán</string>
+    <string name="alert_delete_single">Este artículo será borrado</string>
+    <string name="ok">Aceptar</string>
+    <string name="delete">Borrar</string>
+    <string name="deleting">Borrando</string>
+    <string name="no_recording_file">(No existe el fichero de grabación)</string>
+    <string name="recording_file_list">Grabar lista de archivos</string>
+    <string name="recording_paused">Grabación en pausa</string>
+    <string name="record_title">Grabar</string>
+    <string name="play_title">Reproducir</string>
+    <string name="time_zero">00:00</string>
+    <string name="delete_selected">Seleccionados %s</string>
+    <string name="duration_timer_format_with_hour" formatted="false">%02dH%02dM%02dS</string>
+    <string name="duration_timer_format_without_hour" formatted="false">%02dM%02dS</string>
+    <string name="is_recording_can_not_use_play_function">Se está grabando, no se puede utilizar la función de reproducción.</string>
+    <string name="is_playing_can_not_use_record_function">El archivo de audio se esta reproduciendo, usted no puede usar la función de grabación.</string>
+</resources>

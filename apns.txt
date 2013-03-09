@@ -1,0 +1,1 @@
+.Pre loaded APN list is in system\etc\apns-conf.xml 

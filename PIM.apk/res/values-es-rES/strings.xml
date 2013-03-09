@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_device_account_name">Dispositivo</string>
+    <string name="name_given">Nombre</string>
+    <string name="name_family">Apellido</string>
+    <string name="display_options_sort_by_given_name">Nombre</string>
+    <string name="display_options_sort_by_family_name">Apellido</string>
+    <string name="display_options_view_given_name_first">Primer Nombre </string>
+    <string name="display_options_view_family_name_first">Primer Apellido</string>
+    <string name="deleteCallLogConfirmation_title">Borrar registros de llamada?</string>
+    <string name="deleteCallLogConfirmation_message">¿Está seguro de borrar los registros de llamada seleccionado?</string>
+</resources>

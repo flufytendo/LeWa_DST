@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="selectNone">Cancel</string>
+    <string name="config_deviceKeyHandlerLib" />
+    <string name="config_deviceKeyHandlerClass" />
+    <string name="reboot_system">Reiniciar el teléfono</string>
+    <string name="global_action_screenshot">Captura de pantalla</string>
+    <string name="global_action_screenshot_status">Presione power y volumen hasta tomar una captura de pantalla</string>
+    <string name="reboot_reboot">Reiniciar</string>
+    <string name="reboot_recovery">Recovery</string>
+    <string name="reboot_bootloader">Bootloader</string>
+    <string name="reboot_bootmenu">Bootmenu</string>
+    <string name="reboot_fastboot">Fastboot</string>
+    <string name="reboot_download">Download</string>
+    <string name="reboot_progress">Reiniciar...</string>
+    <string name="reboot_confirm">El teléfono se reiniciará.</string>
+    <string name="global_action_reboot">Reiniciar</string>
+    <string name="lockscreen_discharging">Bateria(%d%%)</string>
+    <string name="progress_scanning">Escaneando</string>
+    <string name="phone_goggles_problem_count">Problema #%1$d:</string>
+    <string name="phone_goggles_description">Resuelve los siguientes problemas %1$d en menos de %2$d segundos para poder establecer comunicación</string>
+    <string name="permlab_revokePermissions">Permite ver y editar permisos revocados. No es para el uso de las aplicaciones normales.</string>
+    <string name="permdesc_revokePermissions">Permite leer y escribir permisos revocados. No es para el uso de las aplicaciones normales.</string>
+    <string name="app_killed_message">Aplicación finalizada</string>
+    <string name="back_killed_message">Finalizada</string>
+    <string name="lock_screen_miss_call">%1$d LLamada perdida</string>
+    <string name="lock_screen_new_msg">%1$d Nuevo mensaje</string>
+    <string name="lock_screen_miss_calls">%1$d Llamadas perdidas</string>
+    <string name="lock_screen_new_msgs">%1$d Nuevos mensajes</string>
+    <string name="lock_screen_drag_down">Arrastra hacia abajo para desbloquear</string>
+    <string name="lock_screen_drag_here">Arrastra hasta aqui para desbloquear</string>
+    <string name="lock_screen_dismiss">Parar</string>
+    <string name="lock_screen_snooze">Volver a sonar</string>
+    <string name="lock_screen_pm">PM</string>
+    <string name="lock_screen_am">AM</string>
+    <string name="fixed_line">Línea fija</string>
+    <string name="ringtone_custom">Personalizar...</string>
+    <string name="ringtone_silent_summary">Silencio</string>
+    <string name="data_usage_warning_body">Cuidado te quedan %s de tu plan de datos</string>
+</resources>

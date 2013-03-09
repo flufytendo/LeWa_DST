@@ -1,0 +1,1 @@
+modificar asi	<integer name="config_criticalBatteryWarningLevel">0</integer>    <integer name="config_lowBatteryWarningLevel">0</integer>    <integer name="config_lowBatteryCloseWarningLevel">0</integer>

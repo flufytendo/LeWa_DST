@@ -1,0 +1,17 @@
+Do /proc/mounts or /proc/emmc or /proc/mtd in the terminal and it will show you the proper mount point locations.
+
+format("ext4", "EMMC", "/dev/block/mmcblk0p3", "0"); ------- para formatear system
+
+
+
+format("ext4", "EMMC", "/dev/block/mmcblk0p5", "0"); ------- para data/factory reset.
+
+Delete_recursive("/data/dalvik-cache"); ------ borrar dalvik-cache
+
+
+
+format("ext4", "EMMC", "/dev/block/mmcblk0p4", "0"); ------- para borrar cache.
+
+Y no se mantiene en todos los terminales, pero en los chinos todos usan las mismas particiones
+
+Un saludo!

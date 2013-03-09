@@ -1,0 +1,20 @@
+1. Obtener ROOT. 
+2. Usando RootExplorer ir en la carpeta para abrir el archivo / system / usr / keylayout /. 
+3. En RootExplorer pulsamos el botón (Derechos de R / W) - edición pluchaetsya. 
+4. Abra el archivo para editarlo MTK-kpd.kl y hacerlo: 
+Era: 
+DPAD_UP Key 103 
+Key 102 HOME WAKE 
+DPAD_LEFT Clave 105 
+Clave 106 DPAD_RIGHT 
+se convirtió en: 
+Key DPAD_UP 103 
+Key 102 HOME 
+Key DPAD_LEFT 105 
+Key 106 DPAD_RIGHT 
+Es decir, se elimina el DESPERTAR palabra 
+5. Guardar en el menú Archivo RootExplorer (una vez que una copia de seguridad automática de archivos, archivo aparece MTK-kpd.kl. Bak). Si algo sale mal, puede reemplazar la espalda por cambiar el nombre del archivo. 
+7. Apague el teléfono. Extraiga la batería e insértela de nuevo. 
+8. Hecho. El teléfono no se despierta ahora seleccionando ". 
+No sé cómo nuestro cuerpo va a trabajar para mí botón no se detiene, no me molestaré. recordar a todo tipo de abusos de teléfono es necesario realizar copias de seguridad de que si sustituimos los valores de la (clave 102 LLAME WAKE_DROPPED), este botón obtendrá el derecho de tomar una llamada entrante. será útil por ejemplo si sus manos están sucias. se ha reservado el derecho de activar el teléfono, pero perdió el Administrador de tareas integrado función de apertura
+

@@ -1,0 +1,21 @@
+niveles de brillo automatico se encuentran en framework-res.apk (values/arrays.xml)
+services.jar
+
+res / valores / drawables.xml 
+hay muchas cosas que usted puede cambiar
+Spoiler (+ / -) (Código)
+Código
+    <item type="drawable" name="notification_number_text_color"> # ffffffff </ item> 
+    <item type="drawable" name="notification_item_background_color"> # ff111111 </ item> - puede notar el color 
+    <tipo de elemento = "dibujable" nombre = "notification_item_background_color_pressed"> # ff257390 </ item> - Puede observar el color del clic 
+    <item type="drawable" name="ticker_background_color"> # ff1d1d1d </ item> - tal vez ticker color (texto en la barra de estado) 
+    <tipo de elemento = "dibujable "name =" status_bar_background "> # 00ffffff </ item> - color barra de estado 
+    <item type="drawable" name="translucent_status_bar_background"> ​​# 99000000 </ item> 
+    <item type="drawable" name="status_bar_recents_background_solid"> # b3000000 </ item> 
+    <item type="drawable" name="status_bar_recents_app_thumbnail_background"> ​​# 88000000 </ item> 
+    <item type="drawable" name="status_bar_notification_row_background_color"> # ff090909 </ item> - puede notar el color 
+    <elemento type = "dibujable" name = "notification_header_bg"> # FF000000 </ item> - color debajo de la fecha y un botón para borrar 
+    <item type="drawable" name="notification_tracking_bg"> # 70000000 </ item> - daltónico 
+    <tipo de objeto = "dibujable "Name =" recents_callout_line "> # 99ffffff </ item> 
+    <item type="drawable" name="notification_item_background_legacy_color"> ffaaaaaa # </ item> - puede notar el color 
+    <item type="drawable" name="toolbox_background"> ​​# ff111111 </ item>
