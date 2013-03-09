@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Intercept</string>
+    <string name="init">Initialisiere Datenbank</string>
+    <string name="reset">Bitte-nicht-stören-Modus zurücksetzen</string>
+    <string name="app_setting_name">Einstellungen</string>
+    <string name="app_title">Intercept</string>
+    <string name="app_block_name">Blackliste</string>
+    <string name="app_blocksms_name">Nachrichten</string>
+    <string name="app_blockcall_name">Anrufe</string>
+    <string name="app_blockrule_name">Regeln</string>
+    <string name="app_addblock_name">Zur Blackliste hinzufügen</string>
+    <string name="app_addwhite_name">Zur Whiteliste hinzufügen</string>
+    <string name="app_editblock_name">Bearbeiten</string>
+    <string name="app_msg_content_name">Nachrichtendetails</string>
+    <string name="app_blocktime_name">Zeitleiste</string>
+    <string name="intercept_mode_title">Intercept aktivieren</string>
+    <string name="intercept_time">Zeitleiste</string>
+    <string name="intercept_notification">Benachrichtungen</string>
+    <string name="intercept_time_allday">Den ganzen Tag</string>
+    <string name="intercept_time_settingtime">Zeitleiste bearbeiten</string>
+    <string name="intercept_time_startTime">Start</string>
+    <string name="intercept_time_endTime">Ende</string>
+    <string name="intercept_blackname">Blackliste</string>
+    <string name="intercept_btn_confirm">OK</string>
+    <string name="intercept_btn_cancel">Abbrechen</string>
+    <string name="block_setting_start_time">07:00</string>
+    <string name="block_setting_end_time">23:00</string>
+    <string name="intercept_delete_msg">Nachricht löschen</string>
+    <string name="intercept_delete_call">Anruf löschen</string>
+    <string name="intercept_unread_msg">Nachrichten</string>
+    <string name="intercept_unseen_call">Anrufe</string>
+    <string name="modify">Modifizieren</string>
+    <string name="msg_recovery_delete">Löschen</string>
+    <string name="msg_send_recovery_title">Wiederherstellen</string>
+    <string name="dialog_item_byhand">Manuell hinzufügen</string>
+    <string name="app_sms_name">Nachrichten</string>
+    <string name="app_call_name">Anrufliste</string>
+    <string name="app_contact_name">Kontakte</string>
+    <string name="app_intercept_delete_title">Löschen</string>
+    <string name="intercept_msg_data">Nachricht %s</string>
+    <string name="unknown">unbekannt</string>
+    <string name="twelve_hour_time_format">ah:mm</string>
+    <string name="blocknumber">Telefonnummer</string>
+    <string name="blockname">Notiz</string>
+</resources>

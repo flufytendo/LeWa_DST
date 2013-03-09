@@ -1,0 +1,14 @@
+version: 1.5.2
+apkFileName: VirusDefense.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  - 9
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '15'
+packageInfo:
+  cur_package: com.lewa.virusdefense
+  orig_package: com.lewa.virusdefense
+compressionType: false

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nahrávanie zvuku</string>
+    <string name="record_your_message">Nahrať vašu správu</string>
+    <string name="message_recorded">Správa zaznamenaná</string>
+    <string name="review_message">Prehrať správu</string>
+    <string name="recording">Nahrávanie</string>
+    <string name="recording_stopped">Nahrávanie zastavené</string>
+    <string name="storage_is_full">Pamäť je plná</string>
+    <string name="max_length_reached">Dosiahnutá maximálna dĺžka</string>
+    <string name="insert_sd_card">Vložte SD kartu a odpojte USB kábel od počítača</string>
+    <string name="min_available">k dispozícii %d minút</string>
+    <string name="sec_available">k dispozícii %d sekúnd</string>
+    <string name="accept">Ukončiť</string>
+    <string name="discard">Zrušiť</string>
+    <string name="button_ok">OK</string>
+    <string name="timer_format_with_hour" formatted="false">%02d:%02d:%02d</string>
+    <string name="timer_format_without_hour" formatted="false">%02d:%02d</string>
+    <string name="audio_db_title_format">yyyy-MM-dd HH:mm:ss</string>
+    <string name="audio_db_artist_name">Vaše záznamy</string>
+    <string name="audio_db_album_name">Audio záznamy</string>
+    <string name="audio_db_playlist_name">Moje záznamy</string>
+    <string name="error_sdcard_access">Nemám prístup na SD kartu</string>
+    <string name="error_app_internal">Interná chyba aplikácie</string>
+    <string name="error_mediadb_new_record">Nie je možné uložiť záznam</string>
+    <string name="error_app_recorder_occupied">Záznamník je používaný inou aplikáciou</string>
+    <string name="unknown_artist_name">Neznámy autor</string>
+    <string name="error_app_failed_title">Chyba záznamu</string>
+    <string name="tell_save_record_success">Uložené</string>
+    <string name="save_record">Uložiť</string>
+    <string name="spaceIsLow_content">Vaša SD karta nemá dostatok miesta. Zastavte nahrávání nebo smažte položky z SD karty.</string>
+    <string name="cancel">Storno</string>
+    <string name="rename_record_file">Premenovať záznam</string>
+    <string name="file_already_exists">Súbor už existuje</string>
+    <string name="select_recording_format">Zvoliť kvalitu záznamu</string>
+    <string name="recording_format_high">Vysoká</string>
+    <string name="recording_format_mid">Stredná</string>
+    <string name="recording_format_low">Nízka</string>
+    <string name="three_mins_avail_total">k dispozícii celkom 3 min.</string>
+    <string name="recorder_can_not_be_used">Záznamník momentálne nie je možné použiť.</string>
+    <string name="alert_delete_multiple">Tieto položky budú odstránené</string>
+    <string name="alert_delete_single">Táto položka bude odstránená</string>
+    <string name="ok">OK</string>
+    <string name="delete">Odstrániť</string>
+    <string name="deleting">Odstraňujem...</string>
+    <string name="no_recording_file">(Žiaden záznam)</string>
+    <string name="recording_file_list">Zoznam nahrávok</string>
+    <string name="recording_paused">Nahrávanie pozastavené</string>
+    <string name="record_title">Nahrať</string>
+    <string name="play_title">Prehrať</string>
+    <string name="time_zero">00:00</string>
+    <string name="delete_selected">Vybrané %s</string>
+    <string name="duration_timer_format_with_hour" formatted="false">%02dH%02dM%02dS</string>
+    <string name="duration_timer_format_without_hour" formatted="false">%02dM%02dS</string>
+    <string name="is_recording_can_not_use_play_function">Počas nahrávania, nie je možné prehrávať.</string>
+    <string name="is_playing_can_not_use_record_function">Počas prehrávania, nie je možné nahrávať.</string>
+</resources>
