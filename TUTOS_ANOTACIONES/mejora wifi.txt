@@ -1,0 +1,12 @@
+mejorar señal wifi http://forum.xda-developers.com/show...php?p=27432438
+permite ir a una rom donde la wifi este bien. copiar su archivo de ajustes para wifi y recompilarlo para ti
+
+el metodo es: descompilar el framework.jar de la rom que tiene mas potencia de wifi
+entrar en el archivo descompilado entrar en android/net/wifi copiar el WifiManager.smali
+luego descompilas el framework.jar de la rom que quieres mejorar, pegarlo en lugar del original
+compilar (smali)
+abrir el framework.jar que nuevo 
+añadir el classes
+añadir el archivo a la rom
+
+

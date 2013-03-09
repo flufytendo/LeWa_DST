@@ -12,6 +12,3 @@ Delete_recursive("/data/dalvik-cache"); ------ borrar dalvik-cache
 
 format("ext4", "EMMC", "/dev/block/mmcblk0p4", "0"); ------- para borrar cache.
 
-Y no se mantiene en todos los terminales, pero en los chinos todos usan las mismas particiones
-
-Un saludo!
